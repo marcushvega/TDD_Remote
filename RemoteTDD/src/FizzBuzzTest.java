@@ -2,13 +2,13 @@
 // JUnit assertion - the default Java assertion library
 // https://junit.org/junit5/
 
-import org.junit.*;
-
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
 public class FizzBuzzTest {
 
     @Test
-    void life_the_universe_and_everything() {
+    public void life_the_universe_and_everything() {
         int expected = 42;
         int actual = FizzBuzz.answer();
         assertEquals(expected, actual);
