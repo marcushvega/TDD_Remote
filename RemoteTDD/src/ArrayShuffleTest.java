@@ -17,4 +17,11 @@ public class ArrayShuffleTest
         int[] intArrTest = ArrayShuffle.createArray(1,3);
         assertEquals(true, ArrayShuffle.equalArrays(intArr, intArrTest));
     }
+
+    @Test
+    public void Create3ValueArray(){
+        int[] intArr = new int[] {1,2,3};
+        int[] intArrTest = ArrayShuffle.createArray(1,4);
+        assertEquals(true, ArrayShuffle.equalArrays(intArr, intArrTest));
+    }
 }
