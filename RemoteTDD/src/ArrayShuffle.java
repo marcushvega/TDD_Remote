@@ -4,8 +4,8 @@ public class ArrayShuffle
 {
     public static int[] createArray(int min, int max) {
         int[] array = new int[max-1];
-        array[0] = 1;
-        array[1] = 2;
+        for(int i = 0; i < max - min; i++)
+            array[i] = i+1;
         return array;
     }
 
