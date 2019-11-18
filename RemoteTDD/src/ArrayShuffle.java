@@ -17,4 +17,11 @@ public class ArrayShuffle
         }
         return true;
     }
+
+    public static boolean checkValue(int min, int max, int testVal){
+        if (min <= testVal && testVal < max){
+            return true;
+        }
+        return false;
+    }
 }

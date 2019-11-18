@@ -35,6 +35,16 @@ public class ArrayShuffleTest
 
     @Test
     public void createValueBetweenMinAndMax() {
-        assertTrue(ArrayShuffle.checkValue(1,5));
+        assertTrue(ArrayShuffle.checkValue(1,5,3));
+    }
+
+    @Test
+    public void checkValueBetweenMinAndMaxFalse() {
+        assertEquals(false,ArrayShuffle.checkValue(1,4,18));
+    }
+
+    @Test
+    public void enterRandomValuesIntoArray() {
+        assertEquals(true, ArrayShuffle.randomNumbers(1,5));
     }
 }
