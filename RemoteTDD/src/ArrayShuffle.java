@@ -1,10 +1,10 @@
-
+import java.util.Random;
 
 public class ArrayShuffle
 {
     public static int[] createArray(int min, int max) {
-        int[] array = new int[max-1];
-        for(int i = 0; i < max - min; i++)
+        int[] array = new int[6];
+        for(int i = 0; i < 6; i++)
             array[i] = i+1;
         return array;
     }
@@ -23,5 +23,17 @@ public class ArrayShuffle
             return true;
         }
         return false;
+    }
+
+    public static boolean randomNumbers(int min, int max) {
+        int[] array = createArray(min, max);
+        for (int i: array)
+            i = (int) (Math.ceil(Math.random() * (max - 2) + min));
+
+        for (int i = 0; i < array.length; i++) {
+            if(!checkValue(min, max, array[i]))
+                return false;
+        }
+        return true;
     }
 }

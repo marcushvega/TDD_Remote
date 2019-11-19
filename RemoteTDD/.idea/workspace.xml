@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayShuffleTest">
+  <component name="RunManager" selected="JUnit.ArrayShuffleTest.shuffleMethodShouldShuffleArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -94,6 +94,39 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArrayShuffleTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayShuffleTest.checkThatRandomNumbersMethodCreatesArrayWithVaryingIntegers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RemoteTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayShuffleTest" />
+      <option name="METHOD_NAME" value="checkThatRandomNumbersMethodCreatesArrayWithVaryingIntegers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayShuffleTest.enterRandomValuesIntoArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RemoteTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayShuffleTest" />
+      <option name="METHOD_NAME" value="enterRandomValuesIntoArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayShuffleTest.shuffleMethodShouldShuffleArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RemoteTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayShuffleTest" />
+      <option name="METHOD_NAME" value="shuffleMethodShouldShuffleArray" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,6 +170,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayShuffleTest.shuffleMethodShouldShuffleArray" />
+        <item itemvalue="JUnit.ArrayShuffleTest.enterRandomValuesIntoArray" />
+        <item itemvalue="JUnit.ArrayShuffleTest.checkThatRandomNumbersMethodCreatesArrayWithVaryingIntegers" />
         <item itemvalue="JUnit.ArrayShuffleTest" />
         <item itemvalue="JUnit.FizzBuzzTest.return_fizz" />
       </list>

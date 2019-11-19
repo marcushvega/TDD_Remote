@@ -2,11 +2,10 @@
 // JUnit assertion - the default Java assertion library
 // https://junit.org/junit5/
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 //import org.junit.jupiter.api.Test;
 
 
@@ -46,5 +45,10 @@ public class ArrayShuffleTest
     @Test
     public void enterRandomValuesIntoArray() {
         assertEquals(true, ArrayShuffle.randomNumbers(1,5));
+    }
+
+    @Test
+    public void shuffleMethodShouldShuffleArray() {
+        assertEquals(false, ArrayShuffle.shuffle(new int[] {1,2,3,4,5,6}));
     }
 }
