@@ -1,4 +1,4 @@
-
+package finishedKatas;
 
 public class ArrayShuffle
 {

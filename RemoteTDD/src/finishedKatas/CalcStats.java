@@ -1,3 +1,5 @@
+package finishedKatas;
+
 import java.util.Arrays;
 
 public class CalcStats {

@@ -1,4 +1,4 @@
-// A simple example to get you started
+package finishedKatas;// A simple example to get you started
 // JUnit assertion - the default Java assertion library
 // https://junit.org/junit5/
 
