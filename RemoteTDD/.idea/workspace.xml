@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="860ebf4d-6813-4c40-a51d-67417477f923" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RemoteTDD/ArrayShuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RemoteTDD/ArrayShuffle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RemoteTDD/CalcStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RemoteTDD/CalcStats.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalcStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalcStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalcStatsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalcStatsTest.java" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalcStatsTest.CSObject_countEightValues">
+  <component name="RunManager" selected="JUnit.CalcStatsTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -164,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalcStatsTest.CSObject_countEightValues" />
         <item itemvalue="JUnit.CalcStatsTest" />
+        <item itemvalue="JUnit.CalcStatsTest.CSObject_countEightValues" />
         <item itemvalue="JUnit.CalcStatsTest.CSObject_countFiveValues" />
         <item itemvalue="JUnit.CalcStatsTest.CSObject_maxValue" />
         <item itemvalue="JUnit.ArrayShuffleTest.shuffleMethodShouldShuffleArray" />

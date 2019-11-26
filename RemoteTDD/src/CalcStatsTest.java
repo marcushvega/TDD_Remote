@@ -70,6 +70,6 @@ public class CalcStatsTest {
     @Test
     public void CSObject_getAverageValue() {
         CalcStats obj = new CalcStats(new int[] {3,4,5});
-        assertEquals(12, obj.getAverageValue());
+        assertEquals(4.0, obj.getAverageValue(), .1);
     }
 }

@@ -5,11 +5,13 @@ public class CalcStats {
     private static int[] arrayInt;
     private static int minValue;
     private static int maxValue;
+    private static double averageValue;
 
     public CalcStats(int[] input){
         arrayInt = input.clone();
         setMin();
         setMax();
+        setAverageValue();
     }
 
     public static int min(int[] arr) {
@@ -52,5 +54,15 @@ public class CalcStats {
     }
 
     public static int countValues() {return arrayInt.length;}
+
+    public static void setAverageValue() {
+        int sum = 0;
+        for (int i = 0; i < arrayInt.length; i++) {
+            sum += arrayInt[i];
+        }
+        averageValue = sum / arrayInt.length;
+    }
+
+    public static double getAverageValue() { return averageValue;}
 
 }
