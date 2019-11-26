@@ -60,4 +60,16 @@ public class CalcStatsTest {
         CalcStats obj = new CalcStats(input);
         assertEquals(expected, obj.countValues());
     }
+
+    @Test
+    public void CSObject_countEightValues() {
+        CalcStats obj = new CalcStats(new int[8]);
+        assertEquals(8, obj.countValues());
+    }
+
+    @Test
+    public void CSObject_getAverageValue() {
+        CalcStats obj = new CalcStats(new int[] {3,4,5});
+        assertEquals(12, obj.getAverageValue());
+    }
 }

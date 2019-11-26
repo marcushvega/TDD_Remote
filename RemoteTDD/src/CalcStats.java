@@ -51,4 +51,6 @@ public class CalcStats {
         }
     }
 
+    public static int countValues() {return arrayInt.length;}
+
 }
