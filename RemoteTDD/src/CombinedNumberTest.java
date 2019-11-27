@@ -6,7 +6,15 @@ public class CombinedNumberTest
 {
     @Test
     public void createCombinedNumberObject() {
-        CombinedNumber cn = new CombinedNumber(new int[4]);
+        int[] input = new int[] {4};
+        CombinedNumber cn = new CombinedNumber(input);
         assertNotNull(cn);
+    }
+
+    @Test
+    public void combinedNumberOneDidget(){
+        int[] input = new int[] {4};
+        CombinedNumber cn = new CombinedNumber(input);
+        assertEquals(4, CombinedNumber.getCombinedNumber());
     }
 }

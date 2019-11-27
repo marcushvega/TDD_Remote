@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="860ebf4d-6813-4c40-a51d-67417477f923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CombinedNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinedNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finishedKatas/ArrayShuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayShuffleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finishedKatas/ArrayShuffleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalcStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finishedKatas/CalcStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalcStatsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finishedKatas/CalcStatsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finishedKatas/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finishedKatas/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinedNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinedNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinedNumberTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CombinedNumberTest.createCombinedNumberObject">
+  <component name="RunManager" selected="JUnit.CombinedNumberTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -122,12 +115,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcStatsTest.CSObject_maxValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CombinedNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RemoteTDD" />
-      <option name="PACKAGE_NAME" value="finishedKatas" />
-      <option name="MAIN_CLASS_NAME" value="finishedKatas.CalcStatsTest" />
-      <option name="METHOD_NAME" value="CSObject_maxValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CombinedNumberTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CombinedNumberTest" />
         <item itemvalue="JUnit.CombinedNumberTest.createCombinedNumberObject" />
         <item itemvalue="JUnit.CalcStatsTest" />
         <item itemvalue="JUnit.CalcStatsTest.CSObject_countEightValues" />
         <item itemvalue="JUnit.CalcStatsTest.CSObject_countFiveValues" />
-        <item itemvalue="JUnit.CalcStatsTest.CSObject_maxValue" />
       </list>
     </recent_temporary>
   </component>
