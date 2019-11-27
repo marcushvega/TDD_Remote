@@ -26,9 +26,16 @@ public class CombinedNumberTest
     }
 
     @Test
-    public void combinedNumberTwoDigitsAccendingOrder() {
+    public void combinedNumberTwoDigitsAscendingOrder() {
         int[] input = new int[] {3,4};
         CombinedNumber cn = new CombinedNumber(input);
         assertEquals(43, cn.getCombinedNumber());
+    }
+
+    @Test
+    public void combinedNumbers_FourDigits_ThreeElements() {
+        int[] input = new int[] {2, 4, 33};
+        CombinedNumber cn = new CombinedNumber(input);
+        assertEquals(4332, cn.getCombinedNumber());
     }
 }

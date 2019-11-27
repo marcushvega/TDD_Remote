@@ -10,9 +10,10 @@ public class CombinedNumber {
     }
 
     public void setFinalNumber(){
+        Arrays.sort(inputArray);
         finalNumber = 0;
         String string = String.valueOf(finalNumber);
-        for (int i = 0; i < inputArray.length; i++){
+        for (int i = inputArray.length-1; i > -1; i--){
             string += String.valueOf(inputArray[i]);
         }
         finalNumber = Integer.parseInt(string);

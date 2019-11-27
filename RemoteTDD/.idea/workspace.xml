@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="860ebf4d-6813-4c40-a51d-67417477f923" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RemoteTDD/CombinedNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RemoteTDD/CombinedNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RemoteTDD/CombinedNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RemoteTDD/CombinedNumberTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CombinedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinedNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CombinedNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinedNumberTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,22 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcStatsTest.CSObject_countFiveValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RemoteTDD" />
-      <option name="PACKAGE_NAME" value="finishedKatas" />
-      <option name="MAIN_CLASS_NAME" value="finishedKatas.CalcStatsTest" />
-      <option name="METHOD_NAME" value="CSObject_countFiveValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CombinedNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RemoteTDD" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CombinedNumberTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinedNumberTest.combinedNumberTwoDigitsAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RemoteTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CombinedNumberTest" />
+      <option name="METHOD_NAME" value="combinedNumberTwoDigitsAscendingOrder" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,10 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CombinedNumberTest" />
+        <item itemvalue="JUnit.CombinedNumberTest.combinedNumberTwoDigitsAscendingOrder" />
         <item itemvalue="JUnit.CombinedNumberTest.createCombinedNumberObject" />
         <item itemvalue="JUnit.CalcStatsTest" />
         <item itemvalue="JUnit.CalcStatsTest.CSObject_countEightValues" />
-        <item itemvalue="JUnit.CalcStatsTest.CSObject_countFiveValues" />
       </list>
     </recent_temporary>
   </component>
