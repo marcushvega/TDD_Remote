@@ -12,9 +12,16 @@ public class CombinedNumberTest
     }
 
     @Test
-    public void combinedNumberOneDidget(){
+    public void combinedNumberOneDigit(){
         int[] input = new int[] {4};
         CombinedNumber cn = new CombinedNumber(input);
-        assertEquals(4, CombinedNumber.getCombinedNumber());
+        assertEquals(4, cn.getCombinedNumber());
+    }
+
+    @Test
+    public void combinedNumberTwoDigits() {
+        int[] input = new int[] {4,3};
+        CombinedNumber cn = new CombinedNumber(input);
+        assertEquals(43, cn.getCombinedNumber());
     }
 }
