@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="860ebf4d-6813-4c40-a51d-67417477f923" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CombinedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinedNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CombinedNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CombinedNumberTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
